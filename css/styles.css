@@ -442,7 +442,7 @@ button {
 }
 .icon-customers:hover {
   border-color: #404bbf;
-    color: #404bbf;
+  color: #404bbf;
 }
 .icon-customers:focus {
   border-color: #404bbf;
@@ -453,7 +453,7 @@ button {
   border-color: #404bbf;
   width: 168px;
   height: 88px;
-width: calc((100% - 120px) / 6);
+  width: calc((100% - 120px) / 6);
   border-color: #434455;
   border-radius: 4px;
 }
@@ -545,10 +545,10 @@ footer {
 }
 
 .footer-social-one {
-  margin-right: 120px;
   margin-left: 8px;
   flex-direction: column;
   display: inline-flex;
+  margin-right: 120px;
 }
 
 .footer-social-two {
