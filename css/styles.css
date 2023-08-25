@@ -448,12 +448,12 @@ button {
   border-color: #404bbf;
   color: #404bbf;
 } 
-.icon-frame-five {
-  width: calc((100% - 120px) / 6);  
+.icon-frame-five { 
   fill: none;
   border-color: #404bbf;
   width: 168px;
   height: 88px;
+width: calc((100% - 120px) / 6);
   border-color: #434455;
   border-radius: 4px;
 }
