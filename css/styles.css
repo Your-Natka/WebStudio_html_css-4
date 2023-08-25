@@ -449,7 +449,7 @@ button {
   color: #404bbf;
 } 
 .icon-frame-five {
- 
+  width: calc((100% - 120px) / 6);  
   fill: none;
   border-color: #404bbf;
   width: 168px;
@@ -545,7 +545,7 @@ footer {
 }
 
 .footer-social-one {
-  
+  margin-right: 120px;
   margin-left: 8px;
   flex-direction: column;
   display: inline-flex;
