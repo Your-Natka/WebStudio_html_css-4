@@ -29,6 +29,7 @@ ul {
 }
 * reset start 
 .section {
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -307,6 +308,7 @@ button {
   display: inline-flex;
 }
 .icon-frame {
+  margin-bottom: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -423,13 +425,12 @@ button {
   background: #FFF;
   padding: 120px 0;
 }
-
 .list-five {
   display: flex;
   gap: 24px;
 }
-
 .icon-customers {
+  width: calc((100% - 120px) / 6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -546,6 +547,7 @@ footer {
 }
 
 .footer-social-one {
+  margin-right: 120px;
   margin-left: 8px;
   margin-right: 120px;
   flex-direction: column;
