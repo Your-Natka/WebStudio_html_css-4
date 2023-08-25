@@ -548,13 +548,13 @@ footer {
   margin-left: 8px;
   flex-direction: column;
   display: inline-flex;
-  margin-right: 120px;
 }
 
 .footer-social-two {
   flex-direction: column;
   display: inline-flex;
   justify-content: space-between;
+  margin-left: 120px;
 }
 
 /* MODAL WINDOW*/
@@ -734,6 +734,7 @@ footer {
   border-top: none;
 }
 .link-portfolio {
+  text-decoration: none;
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -763,10 +764,9 @@ footer {
   padding: 40px 32px;
   transform: translateY(100%);  
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--cloud, #F4F4FD);
-text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud, #F4F4FD);
 }
 
 .overlay:hover,
@@ -777,7 +777,6 @@ text-decoration: none;
   transform: translateY(0); 
 }
 .portfolio-title {
-  text-decoration: none;
   font-family: Roboto;
   margin-bottom: 8px;
   font-size: 20px;
