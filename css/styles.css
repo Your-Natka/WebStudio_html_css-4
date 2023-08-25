@@ -776,6 +776,7 @@ color: var(--cloud, #F4F4FD);
   transform: translateY(0); 
 }
 .portfolio-title {
+  text-decoration: none;
   font-family: Roboto;
   margin-bottom: 8px;
   font-size: 20px;
@@ -785,6 +786,7 @@ color: var(--cloud, #F4F4FD);
   color: var(--navyblue, #2E2F42);
 }
 .portfolio-paragraph {
+  text-decoration: none;
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
