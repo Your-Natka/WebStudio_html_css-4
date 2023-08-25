@@ -545,7 +545,6 @@ footer {
 }
 
 .footer-social-one {
-  margin-left: 8px;
   flex-direction: column;
   display: inline-flex;
   margin-right: 120px;
@@ -555,7 +554,6 @@ footer {
   flex-direction: column;
   display: inline-flex;
   justify-content: space-between;
-  margin-left: 120px;
 }
 
 /* MODAL WINDOW*/
