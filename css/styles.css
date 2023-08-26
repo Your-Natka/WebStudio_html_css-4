@@ -6,17 +6,15 @@
   --ocean: #404bbf;
   --cloud: #f4f4fd;
 }
-
 img {
   display: block;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: auto 0;
 }
-
 h1,
 h2,
 h3,
@@ -24,6 +22,7 @@ h4,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 * reset start 
 .section {
@@ -36,7 +35,9 @@ ul {
 }
 
 .list {
+  margin: 0;
   list-style: none;
+  padding: 0;
 }
 
 /* гумові картинки */
@@ -74,9 +75,9 @@ header {
 
 .container {
   width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
-
 .nav {
   display: flex;
   align-items: center;
@@ -94,6 +95,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-right: 76px;
 }
 
 .studio-color {
@@ -112,6 +114,7 @@ header {
 
 .nav-list:last-child {
   margin-right: 0;
+  margin-left: 0;
 }
 
 .nav-link {
@@ -226,6 +229,7 @@ header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white); 
   max-width: 496px;
@@ -343,7 +347,7 @@ button {
 }
 .section-for-list {
   display: flex;
-  gap: 24px;
+  gap: 32px;
 }
 .section-four-items {
   border-radius: 0px 0px 4px 4px;
@@ -378,6 +382,8 @@ button {
   gap: 24px;
   flex-shrink: 0;
   align-self: center;
+  padding-left: 0;
+  list-style: none;
 }
 .social-link-four {
   position: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -432,13 +438,8 @@ button {
   color: #404bbf;
 } 
 .icon-frame-five { 
-  fill: none;
-  border-color: #404bbf;
-  width: 168px;
   height: 88px;
   width: calc((100% - 120px) / 6);
-  border-color: #434455;
-  border-radius: 4px;
 }
 .icon-frame-five:hover {
   border-color: #404bbf;
@@ -462,7 +463,6 @@ footer {
 
 .footer-media-social {
   flex-shrink: 0;
-  gap: 120px;
 }
 
 .footer-paragraph-logo {
@@ -531,6 +531,7 @@ footer {
   flex-direction: column;
   display: inline-flex;
   margin-right: 120px;
+  margin-left: 8px;
 }
 
 .footer-social-two {
@@ -695,7 +696,8 @@ footer {
   margin: 0;
   padding: 0;
   list-style: none;
-  gap: 8px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .btn-menu-portfolio-two {
   border-radius: 0px 0px 4px 4px;
