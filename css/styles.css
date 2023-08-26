@@ -190,6 +190,7 @@ header {
 /* MAIN PAGE */
 /* SECTION ONE */
 .main-section { 
+  max-width: 1440px;
   background-color: var(--navyblue);
 }
 .hero {
@@ -302,6 +303,7 @@ button {
   height: 112px;
   border-radius: 4px;
   background: var(--cloud, #F4F4FD);
+  margin-bottom: 8px;
 }
 .sub-title {
   font-weight: 500;
@@ -530,8 +532,7 @@ footer {
 .footer-social-one {
   flex-direction: column;
   display: inline-flex;
-  margin-right: 120px;
-  margin-left: 8px;
+  margin-right: 120px
 }
 
 .footer-social-two {
