@@ -298,6 +298,7 @@ button {
   width: 264px;
   height: 112px;
   border-radius: 4px;
+  margin-bottom: 8px;
   background: var(--cloud, #F4F4FD);
 }
 .sub-title {
@@ -306,7 +307,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 .main-paragraph {
