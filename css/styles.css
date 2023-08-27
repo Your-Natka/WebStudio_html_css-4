@@ -219,10 +219,8 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-.main-section,
-.main-title {
-    margin-right: auto;
-    margin-left: auto;
+.main-section .main-title {
+    margin: 0 auto;
   }
 .main-title {  
   margin-bottom: 48px;
@@ -303,7 +301,6 @@ button {
   height: 112px;
   border-radius: 4px;
   background: var(--cloud, #F4F4FD);
-  margin-bottom: 8px;
 }
 .sub-title {
   font-weight: 500;
