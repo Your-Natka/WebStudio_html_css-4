@@ -219,7 +219,10 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-  
+.main-section .main-title {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
 .main-title {  
   margin-bottom: 48px;
   text-align: center;
