@@ -591,15 +591,13 @@ footer {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-btn:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
-/*.modal-btn:hover,
-.modal-btn:focus {
-fill: #ffffff;
-}*/
 
 
 /* PORTFOLIO MAIN  */
