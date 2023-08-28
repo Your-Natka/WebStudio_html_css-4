@@ -591,12 +591,12 @@ footer {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: var(--white);
 }
 .modal-btn:hover {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: var(--white);
 }
 
 
