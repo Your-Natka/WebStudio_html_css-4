@@ -572,21 +572,20 @@ footer {
   right: 24px;
   width: 24px;
   height: 24px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.10);
-  padding: 0;
-  border-radius: 50%;
-  border: none; 
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
-  fill: #ffffff;
-  transition: background-color #404bbf, border none, fill #ffffff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.modal-btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--navyblue);
 }
 
 .modal-btn:hover {
@@ -594,18 +593,14 @@ footer {
   border: none;
   fill: #ffffff;
 }
+
+.modal-btn:hover .modal-btn-icon {
+  fill: var(--cloud);
+}
+
 .modal-btn:focus {
-  background-color: #404bbf;
   border: none;
   fill: #ffffff;
-}
-.modal-btn-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  stroke-width: 1px;
-  stroke: #2e2f42;
-   fill: var(--navy-blue);
-  stroke-width: 1px;
-  fill: var(--cornflower, #E7E9FC);
 }
 
 /* PORTFOLIO MAIN  */
