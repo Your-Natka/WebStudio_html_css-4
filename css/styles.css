@@ -593,15 +593,16 @@ footer {
   border: none;
   fill: #ffffff;
 }
-
-.modal-btn:hover .modal-btn-icon {
-  fill: var(--cloud);
-}
 .modal-btn:hover {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
+.modal-btn:hover,
+.modal-btn:focus {
+fill: #ffffff;
+}
+
 
 /* PORTFOLIO MAIN  */
 .portfolio-main {
