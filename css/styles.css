@@ -224,6 +224,7 @@ header {
   margin: auto;
 }
 .main-title {  
+  margin: 0 auto 48px auto;
   text-align: center;
   font-weight: 700;
   font-size: 56px;
@@ -232,7 +233,6 @@ header {
   letter-spacing: 0.02em;
   color: var(--white); 
   max-width: 496px;
-  margin-bottom: 48px;
 }
 button {
   border: none;
