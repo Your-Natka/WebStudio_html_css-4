@@ -588,16 +588,14 @@ footer {
   fill: var(--navyblue);
 }
 
-.modal-btn:hover {
+.modal-btn:focus {
   background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
 }
 
 .modal-btn:hover .modal-btn-icon {
   fill: var(--cloud);
 }
-
+.modal-btn:hover,
 .modal-btn:focus {
   border: none;
   fill: #ffffff;
