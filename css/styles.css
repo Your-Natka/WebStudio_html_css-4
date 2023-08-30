@@ -551,7 +551,7 @@ footer {
 
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #FFF;
+  color: #2E2F42;
 }
 
 .modal-btn:focus {
